@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_vpc" "challenge1vpc" {
-    cidr_block = "192.168.3.0/24"
+    cidr_block = "192.168.4.0/24"
     tags = {
         Name = "TerraformVPC"
     }
